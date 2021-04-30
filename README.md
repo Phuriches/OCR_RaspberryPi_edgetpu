@@ -1,5 +1,6 @@
 # [OCR based on Deep Learning implemented on Raspberry Pi4 with Coral USB Accelerator.](https://medium.com/p/fb6f6a933850/edit)
 
+## Introduction
 This project will be demonstrated an OCR(Optical Character Recognition) Technology based on Deep Learning by using Raspberry Pi as a Microcontroller, in order to improve its performance working together with Coral USB Accelerator is an interesting choice. It adds an Edge TPU coprocessor to your system, and enabling high-speed inferencing with low consumption and also supports TensorFlow Lite which is a lightweight model for mobile deployment. Completely, this project can recognize in real-time and convert virtually any kind of image or stream video containing typed and printed text into machine-readable text data. It is very easy to use, just open your mobile camera and got the text data!
 
 Part1: Text Detection, there are alternatives pre-trained models can detect text on image or video but we focus on text detectors that can be use for microcontroller deployment such as EAST model, CRAFT model, TextBoxes++, and PaddleOCR. CRAFT and EAST have almost the same performance, but still different. East was chosen for working in this project following its better performance in [A battle result article](https://sayak.dev/optimizing-text-detectors/).
